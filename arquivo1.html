@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Marés - Hardcore Band</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Os Marés</h1>
+            <p class="subtitle">Hardcore Band</p>
+            <div class="waves"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="music-section">
+                <h2 class="section-title">Ouça Nossas Músicas</h2>
+                
+                <div class="music-links">
+                    <div class="music-card" onclick="openLink('https://open.spotify.com')">
+                        <span class="platform-icon spotify">♪</span>
+                        <h3 class="platform-name spotify">Spotify</h3>
+                        <p>Escute no Spotify</p>
+                    </div>
+
+                    <div class="music-card" onclick="openLink('https://youtube.com')">
+                        <span class="platform-icon youtube">▶</span>
+                        <h3 class="platform-name youtube">YouTube</h3>
+                        <p>Assista no YouTube</p>
+                    </div>
+
+                    <div class="music-card" onclick="openLink('https://soundcloud.com')">
+                        <span class="platform-icon soundcloud">☁</span>
+                        <h3 class="platform-name soundcloud">SoundCloud</h3>
+                        <p>Ouça no SoundCloud</p>
+                    </div>
+
+                    <div class="music-card" onclick="openLink('https://bandcamp.com')">
+                        <span class="platform-icon bandcamp">⬢</span>
+                        <h3 class="platform-name bandcamp">Bandcamp</h3>
+                        <p>Compre no Bandcamp</p>
+                    </div>
+
+                    <div class="music-card" onclick="openLink('https://music.apple.com')">
+                        <span class="platform-icon apple">🍎</span>
+                        <h3 class="platform-name apple">Apple Music</h3>
+                        <p>Ouça na Apple Music</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bio-section">
+                <h2 class="section-title">Sobre a Banda</h2>
+                <p class="bio-text">
+                    Os Marés é uma banda de hardcore que surgiu das profundezas da cena underground. 
+                    Com riffs pesados, bateria intensa e vocals agressivos, criamos uma sonoridade única 
+                    que representa a força e a energia das marés em tempestade. Nossa música é sobre 
+                    resistência, paixão e a luta constante contra as adversidades da vida.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">📷</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+            <p>&copy; 2025 Os Marés - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
